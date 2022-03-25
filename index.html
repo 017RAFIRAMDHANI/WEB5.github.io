@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        text-align: center;
+        background-color: white;
+      }
+      .biru{
+        background-color: yellow;
+      }
+      .kotak{
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+      }
+      .R{
+        background-color: red;
+      }
+      .G{
+        background-color: green;
+      }
+      .B{
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bermain dengan Warna</h1>
+    <button type="button" id="tomboleubahwarna">Ubah Warna</button>
+    <br><br>
+    <div class="kotak R"></div>
+   <input type="range" name="sliderR" min="1" max="255">
+   <div class="kotak G"></div>
+  <input type="range" name="sliderG" min="1" max="255">
+   <div class="kotak B"></div>
+  <input type="range" name="sliderB" min="1" max="255">
+   <script src="js.js"></script>
+  </body>
+</html>
